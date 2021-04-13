@@ -1,0 +1,55 @@
+body {
+    background-color: azure;
+}
+
+p {
+    text-align: center;
+    background-color: aquamarine;
+    color: darkorchid;
+}
+
+#second {
+    text-align: right;
+    background-color: azure;
+    color: blue;
+}
+
+#pTag {
+    text-align: center;
+    background-color: antiquewhite;
+    color: darkgreen;
+}
+
+.simpleClass {
+    text-align: left;
+    background-color: lightyellow;
+    color: deeppink;
+}
+
+span {
+    text-align: center;
+    background-color: aquamarine;
+    color: darkorchid;
+}
+
+
+
+img {
+    border-color: aqua;
+}
+
+table, th, td, caption {
+    border: 1px solid red;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: lightblue;
+    color: darkred;
+}
+
+ul, ol {
+    background-color: aquamarine;
+    color: darkred;
+}

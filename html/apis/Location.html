@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML APIs Location </title>
+    <link rel="stylesheet" href="../css/styleApi.css">
+</head>
+<body>
+
+    <h1 id="empty"></h1>
+    <button type="button" onclick="myPosition()">Get Location</button>
+
+<script>
+    const h = document.getElementById("empty");
+
+    function myPosition() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showLocation)
+        }
+    }
+
+    function showLocation(position) {
+        h.innerHTML = "My Location is: " + position.coords.longitude;
+    }
+
+
+</script>
+
+</body>
+</html>

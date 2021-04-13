@@ -1,0 +1,42 @@
+body {
+    background: url("../../image/agg.jpg");
+    background-size: 1400px 720px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+.container-fluid {
+    border: 3px solid pink;
+    padding: 10px;
+}
+
+.col {
+    border: 3px solid green;
+}
+
+.col-5 {
+    border: 3px solid mediumvioletred;
+}
+
+.col-7 {
+    border: 3px solid mediumvioletred;
+}
+
+.col-9 {
+    border: 3px solid mediumvioletred;
+}
+
+.col-8 {
+    border: 3px solid chocolate;
+    text-align: justify;
+}
+
+.col-4 {
+    border: 3px solid darkred;
+}
+

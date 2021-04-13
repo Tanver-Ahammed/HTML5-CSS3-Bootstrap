@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Elements</title>
+    <link rel="stylesheet" href="../css/formStyle.css">
+</head>
+<body>
+
+<form action="UserAccount.java" method="get">
+    <label for="username">Username:</label>
+    <input id="username" type="text" required><br><br>
+
+    <label for="password">Password  :</label>
+    <input id="password" type="password" required><br><br>
+
+    <label>Gander: </label>
+    <input type="radio" name="gander" value="Male" id="Male">
+    Male
+    <input type="radio" name="gander" value="Female" id="Female">
+    Female<br><br>
+
+    <span>Occupation:  </span>
+    <select name="select">
+        <option value="Teacher">Teacher</option>
+        <option value="Student">Student</option>
+    </select><br><br>
+
+    <span>Division: </span>
+    <input type="text" list="division">
+    <datalist id="division">
+        <option value="Dhaka">Dhaka</option>
+        <option value="Chittagong">Chittagong</option>
+        <option value="Khulna">Khulna</option>
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Barisal">Barisal</option>
+        <option value="Sylet">Sylet</option>
+        <option value="Rangpur">Rangpur</option>
+        <option value="Mymonsingh">Mymonsingh</option>
+    </datalist>
+
+    <br><br>
+
+    <textarea cols="30" rows="10" placeholder="Insert your details"></textarea>
+
+    <br><br>
+
+    <input type="submit" value="submit">
+
+</form>
+
+</body>
+</html>
